@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help - Language Learner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Language Learner</h1>
+        <button id="theme-toggle">Switch Light Mode</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="language.html">Language</a></li>
+            <li><a href="language-maps.html">Language Maps</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Help & Support</h2>
+            <h3>FAQs</h3>
+            <dl>
+                <dt>How do I start learning a language?</dt>
+                <dd>Go to the Home page, click a language card, and take the quiz on the Language page.</dd>
+                <dt>What are the learning stages?</dt>
+                <dd>Check the Language Maps page for CEFR-based stages.</dd>
+                <dt>How do I sign up for updates?</dt>
+                <dd>Visit the Contact page and fill out the form.</dd>
+                <dt>Can I switch themes?</dt>
+                <dd>Yes, use the Toggle Theme button in the header.</dd>
+                <dt>Why can't I see card content?</dt>
+                <dd>We've fixed this—cards now have minimum height for visibility.</dd>
+            </dl>
+            <p>If you need more help, click <button id="support-contact">Contact Us</button> to go to the contact page.</p>
+        </section>
+
+        <aside>
+            <h3>Fun Fact</h3>
+            <p>Learning a language can take anywhere from 600 to 2,200 hours depending on its complexity!</p>
+        </aside>
+
+        <div id="language-modal" class="modal">
+            <div class="modal-content">
+                <span id="close-modal" class="close">&times;</span>
+                <div class="modal-body">
+                    <p>Contact support at help@languagelearner.com</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Geoffrey Onyango, 2025 - Event Handling</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
