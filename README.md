@@ -22,9 +22,10 @@ script.js: JavaScript for cards, quizzes, form validation, theme toggling, and m
 - Modals for details.
 
 # How to Run
-Access the live website from the link: .
+Access the live website from the link: https://language-learner-mvp.vercel.app/.
 
 If you are interested in contributing to the project: fork the repo, clone and explore.
+Link: https://github.com/JdoesTech/language-learner-mvp
 
 ## Author
 Geoffrey Onyango, PLP 2025
